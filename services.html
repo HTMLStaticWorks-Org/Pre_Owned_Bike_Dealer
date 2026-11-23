@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +8,19 @@
   <link rel="shortcut icon" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <header class="header">
-    <a class="brand" href="index.html">RIDE<span>AGAIN</span></a>
+    <a class="brand" href="index.html">
+      <span class="brand-logo" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="5.5" cy="17.5" r="3.5"/>
+          <circle cx="18.5" cy="17.5" r="3.5"/>
+          <path d="M5.5 17.5L9.5 10h5l4 7.5"/>
+          <path d="M12 10l2-3h3"/>
+        </svg>
+      </span>
+      <span class="brand-text">RIDE<span>AGAIN</span></span>
+    </a>
     <button class="hamburger" id="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -29,7 +37,7 @@
       <div class="nav-actions">
         <button id="rtl" type="button" class="util-btn" aria-label="Toggle right to left">⇄ RTL</button>
         <button id="theme" type="button" class="util-btn" aria-label="Toggle theme">☾ Dark</button>
-        <a class="button nav-signin" href="login.html">Sign In</a>
+        <a class="button nav-cta-btn" href="contact.html#contactForm">Reach Us</a>
       </div>
     </div>
   </header>
@@ -39,16 +47,14 @@
       <div class="hero-copy">
         <span class="eyebrow">CARE BEYOND THE SALE</span>
         <h1>Complete Workshop,<br><em>Paperwork &amp; Support.</em></h1>
-        <p>From 120-point pre-purchase inspections and RTO RC transfers to easy bike financing and detailing, we
-          simplify every step of pre-owned ownership.</p>
+        <p>From 120-point pre-purchase inspections and RTO RC transfers to easy bike financing and detailing, we simplify every step of pre-owned ownership.</p>
         <div class="actions">
-          <a class="button" href="contact.html">Book Bike Inspection</a>
+          <a class="button" href="contact.html#contactForm">Book Bike Inspection</a>
           <a class="button secondary" href="inventory.html">View Certified Stock</a>
         </div>
       </div>
       <div class="page-hero-img">
-        <img src="https://images.unsplash.com/photo-1558981408-db0ecd8a1ee4?auto=format&fit=crop&w=1200&q=85"
-          alt="Motorcycle Engine and Mechanical Service">
+        <img src="images/services-hero.jpg" alt="Motorcycle Engine and Mechanical Service">
         <div class="image-tag">120-POINT CERTIFIED DIAGNOSTICS · IN-HOUSE RTO DESK</div>
       </div>
     </section>
@@ -61,60 +67,54 @@
       <div class="grid three">
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=900&q=80"
-              alt="120-Point Motorcycle Inspection">
+            <img src="images/services-1.jpg" alt="120-Point Motorcycle Inspection">
           </div>
           <div class="card-body">
             <span class="pill">Diagnostics</span>
             <h3>120-Point Pre-Sale Check</h3>
-            <p>Complete mechanical, electrical, suspension, and road-test inspection with documented condition grading.
-            </p>
+            <p>Complete mechanical, electrical, suspension, and road-test inspection with documented condition grading.</p>
             <div class="card-footer">
-              <a class="button secondary" href="contact.html">Book Check</a>
+              <a class="button secondary" href="contact.html#contactForm">Book Check</a>
             </div>
           </div>
         </article>
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80"
-              alt="Sell or Trade-In Motorcycle Valuation">
+            <img src="images/services-2.jpg" alt="Sell or Trade-In Motorcycle Valuation">
           </div>
           <div class="card-body">
             <span class="pill">Trade &amp; Sell</span>
             <h3>Instant Buyback &amp; Trade-In</h3>
             <p>Same-day doorstep valuation for your old bike with instant payout or direct upgrade exchange credit.</p>
             <div class="card-footer">
-              <a class="button secondary" href="contact.html">Get Quote</a>
+              <a class="button secondary" href="contact.html#contactForm">Get Quote</a>
             </div>
           </div>
         </article>
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf8f1b?auto=format&fit=crop&w=900&q=80"
-              alt="Bike Financing and Insurance">
+            <img src="images/services-3.jpg" alt="Bike Financing and Insurance">
           </div>
           <div class="card-body">
             <span class="pill">Paperwork</span>
             <h3>RC Transfer &amp; Easy EMI</h3>
             <p>Guaranteed ownership transfer, interstate NOC clearance, and fast bike loan approvals in 30 minutes.</p>
             <div class="card-footer">
-              <a class="button secondary" href="contact.html">Check Eligibility</a>
+              <a class="button secondary" href="contact.html#contactForm">Check Eligibility</a>
             </div>
           </div>
         </article>
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1558981359-219d6364c9c8?auto=format&fit=crop&w=900&q=80"
-              alt="Motorcycle Spa and Ceramic Detailing">
+            <img src="images/services-4.jpg" alt="Motorcycle Spa and Ceramic Detailing">
           </div>
           <div class="card-body">
             <span class="pill">Detailing</span>
             <h3>Ceramic &amp; Tank Protection</h3>
-            <p>Multi-stage polish, engine bay degreasing, and hydrophobic ceramic coating for lasting showroom shine.
-            </p>
+            <p>Multi-stage polish, engine bay degreasing, and hydrophobic ceramic coating for lasting showroom shine.</p>
             <div class="card-footer">
               <a class="button secondary" href="products.html">View Care Kits</a>
             </div>
@@ -123,8 +123,7 @@
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&w=900&q=80"
-              alt="Extended Warranty and Roadside Support">
+            <img src="images/services-5.jpg" alt="Extended Warranty and Roadside Support">
           </div>
           <div class="card-body">
             <span class="pill">Protection</span>
@@ -138,8 +137,7 @@
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80"
-              alt="Rider Gear and Accessory Fitting">
+            <img src="images/services-6.jpg" alt="Rider Gear and Accessory Fitting">
           </div>
           <div class="card-body">
             <span class="pill">Accessories</span>
@@ -161,8 +159,7 @@
       <div class="grid two">
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?auto=format&fit=crop&w=900&q=80"
-              alt="Mechanical and Engine Inspection Checklist">
+            <img src="images/services-check-1.jpg" alt="Mechanical and Engine Inspection Checklist">
           </div>
           <div class="card-body">
             <h3>Mechanical &amp; Roadworthiness Check</h3>
@@ -180,8 +177,7 @@
 
         <article class="card">
           <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=900&q=80"
-              alt="Paperwork and Legal Verification Checklist">
+            <img src="images/services-check-2.jpg" alt="Paperwork and Legal Verification Checklist">
           </div>
           <div class="card-body">
             <h3>Documentation &amp; Legal Audit</h3>
@@ -192,7 +188,7 @@
               <li>Zero pending traffic e-challans &amp; valid insurance</li>
             </ul>
             <div class="card-footer">
-              <a class="button" href="contact.html">Schedule Inspection</a>
+              <a class="button" href="contact.html#contactForm">Schedule Inspection</a>
             </div>
           </div>
         </article>
@@ -203,9 +199,32 @@
   <footer>
     <div class="footer-grid">
       <div>
-        <a class="brand" href="index.html">RIDE<span>AGAIN</span></a>
-        <p>Certified pre-owned motorcycles inspected on 120 checkpoints, backed by transparent RC transfer and a 6-month
-          powertrain warranty.</p>
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="5.5" cy="17.5" r="3.5"/>
+              <circle cx="18.5" cy="17.5" r="3.5"/>
+              <path d="M5.5 17.5L9.5 10h5l4 7.5"/>
+              <path d="M12 10l2-3h3"/>
+            </svg>
+          </span>
+          <span class="brand-text">RIDE<span>AGAIN</span></span>
+        </a>
+        <p>Certified pre-owned motorcycles inspected on 120 checkpoints, backed by transparent RC transfer and a 6-month powertrain warranty.</p>
+        <div class="footer-socials" aria-label="RideAgain social channels">
+          <a class="footer-social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a class="footer-social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a class="footer-social-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0f172a"/></svg>
+          </a>
+          <a class="footer-social-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
       </div>
       <div>
         <strong>Showroom</strong>
@@ -219,7 +238,7 @@
         <a href="inventory.html">Bike Inventory</a>
         <a href="products.html">Bikes &amp; Riding Gear</a>
         <a href="contact.html">Contact &amp; Valuation</a>
-        <a href="login.html">Rider Portal Sign In</a>
+        <a href="contact.html#contactForm">Reach Us / Test Ride</a>
       </div>
       <div>
         <strong>Visit Showroom</strong>
@@ -230,13 +249,11 @@
   </footer>
 
   <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <polyline points="18 15 12 9 6 15"></polyline>
     </svg>
   </button>
 
   <script src="script.js"></script>
 </body>
-
 </html>

@@ -8,11 +8,11 @@ Pages included:
 - inventory.html (Certified Pre-Owned Motorcycle Listings)
 - products.html (Certified Pre-Owned Bikes, ECE Riding Gear & GPS Trackers)
 - contact.html (Showroom Contact, Trade-In Valuation Form & Guindy Chennai Map)
-- login.html & signup.html (Centered auth card, top-right RTL/Theme controls, eye password toggles, terms & conditions checkbox, 4 unique social icons; no navbar/footer/images)
 
 Assets:
-- styles.css (Royal Blue #1d4ed8 primary palette, Light & Dark contrast, responsive breakpoints at 1024px/768px/mobile, hamburger menu with RTL/Theme/Sign In, back-to-top button)
-- script.js (Theme persistence, RTL toggle, hamburger menu, password eye toggle, form validation, back-to-top smooth scroll)
+- images/ (78 unique verified local motorcycle, workshop & riding gear JPEG images)
+- styles.css (Royal Blue #1d4ed8 primary palette, Light & Dark contrast, consistent 40px header controls, ordered tablet/mobile checklist points, footer social icons, back-to-top button)
+- script.js (Theme persistence, RTL toggle, hamburger menu, contact form handler, back-to-top smooth scroll)
 - favicon.svg (Motorcycle silhouette favicon linked across all pages)
 
-Open index.html in your browser to start. All pages are static HTML/CSS/JS. Images are verified motorcycle Unsplash images and require internet access.
+Open index.html in your browser to start. All pages are static HTML/CSS/JS with local images in images/.
